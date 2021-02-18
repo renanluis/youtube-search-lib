@@ -15,7 +15,7 @@ if (!(args.length > 2)) {
     console.log('Usage: ' + process.argv[1] + ' [search query] [results amount limit] [language (pt-BR)]');
     process.exit(1);
 }
-youtube.search(args[0], args[1], 'pt-BR', function(response) {
+youtube.search(args[0], args[1], args[2], function(response) {
     console.log(response);
     /*
         {
