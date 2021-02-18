@@ -17,5 +17,16 @@ if (!(args.length > 2)) {
 }
 youtube.search(args[0], args[1], 'pt-BR', function(response) {
     console.log(response);
+    /*
+        {
+        status: 'ok',
+        videos: [
+            {
+            title: 'twenty one pilots: Stressed Out [OFFICIAL VIDEO]',
+            url: 'https://youtube.com/watch?v=pXRviuL6vMY'
+            }
+        ]
+        }
+    */
 });
 ```
