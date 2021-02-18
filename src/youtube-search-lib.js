@@ -39,6 +39,12 @@ class YouTubeSearch {
                 let videos = [];
                 let json = JSON.parse(str);
                 for (let i = 0; i < parseInt(limit); i++) {
+                    if(typeof json.contents == 'undefined') {
+                        return callback({
+                            'status': false,
+                            'error': null
+                        });
+                    }
                     let videoObj = json.contents.twoColumnSearchResultsRenderer.primaryContents.sectionListRenderer.contents[0].itemSectionRenderer.contents[i].videoRenderer;
                     if (typeof videoObj == 'undefined') {
                         break;
