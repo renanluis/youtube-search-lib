@@ -3,6 +3,10 @@ This library could be used to search a specific query string on YouTube.
 
 
 ## Usage
+```bash
+index.js [search query] [results amount limit] [language. e.g: pt-BR]
+```
+
 ```javascript
 var YoutubeSearch = require('./src/youtube-search-lib');
 var youtube = new YoutubeSearch();
