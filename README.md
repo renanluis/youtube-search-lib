@@ -30,3 +30,9 @@ youtube.search(args[0], args[1], 'pt-BR', function(response) {
     */
 });
 ```
+
+## Requires
+- Node.JS
+
+## Suggestions/bug report?
+- Create a issue on this repository or contact me on any social network linked on my GitHub profile.
