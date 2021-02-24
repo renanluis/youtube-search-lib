@@ -1,5 +1,5 @@
 # YouTube Search
-This library could be used to search a specific query string on YouTube.
+This library could be used to search a specific query string on YouTube. OBS: Rate limiting can be applied.
 
 
 ## Usage
